@@ -1,7 +1,7 @@
 from __future__ import annotations
 from random import sample, randint
 import os, json
- 
+
 class Pykemon:
     """
     Classe représentant un Pykemon.
@@ -232,7 +232,7 @@ class Jeu:
         elif vivants_J2 == 0:
             return f"Bravo {self.J1.nom}, vous avez gagné !"
         else:
-            return "Bug :("
+            return f"Bug :( \nInfo : pokeJ1 : {self.J1.pykemons} ; pokeJ2 : {self.J2.pykemons}"
 
 def clear():
     """Efface le terminal (Windows ou Linux/Mac)"""
