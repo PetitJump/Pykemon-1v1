@@ -23,3 +23,6 @@ Les deux joueurs choisissent leur Pokémon de départ.
 - Changer de Pokémon : choisit un autre encore en vie.
 Quand un Pokémon tombe à 0 PV, il est K.O.
 Le jeu se termine quand un joueur n’a plus de Pokémon en vie.
+
+## Modifications possibles ##
+- Modification de data.json masi garder la structure [Nom du pokemon, pv, type, ("nom attaque", valeur), ("nom soin", valeur), faiblesse]
