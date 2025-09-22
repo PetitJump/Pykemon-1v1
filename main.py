@@ -108,11 +108,11 @@ class Joueur:
 
     def stat(self, adv: Joueur):
         """Affiche les stats du joueur et de l'adversaire"""
-        print("="*40)
+        print("======================")
         print(f"{self.nom} - Pokémon actif : {self.poke_en_cour.stats()}")
-        print("-"*40)
+        print("======================")
         print(f"Adversaire {adv.nom} - Pokémon actif : {adv.poke_en_cour.stats()}")
-        print("="*40)
+        print("======================")
 
 
 class Jeu:
